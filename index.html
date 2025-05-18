@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Betu</title>
+  <style>
+    body {
+      background-color: #ffc6dc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #4a0033;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.3em;
+      line-height: 1.8em;
+      margin-top: 20px;
+    }
+    .footer {
+      margin-top: 40px;
+      font-style: italic;
+    }
+    .play-button {
+      margin-top: 30px;
+      font-size: 2em;
+      background-color: #ff4d88;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .heart {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hey betu... kesa h tu?</h1>
+    <p>
+      I just miss you so much. Kal apn mile the, time kese nikal gaya pata hi nahi chala.<br>
+      Tere sath auto ride, cafe ke nakhre — sab yaad aata hai aur bahut acha lagta hai.<br><br>
+      Main tera first bestfriend to nahi hun but main tera aakhri best friend banna chahta hun.<br>
+      I know main nalayak aur immature hun but tu haina mere sath...<br><br>
+      Ab ye msg dekh kar overthinking mat kariyo, aur haan — jab bhi mujhse naraz ho to thappad laga kar samjha diyo, bas chup aur door mat jaana mujhse.<br><br>
+      I love you my betu ❤️🫶
+    </p>
+    <button class="play-button" onclick="document.getElementById('audio').play()">
+      Play Music <span class="heart">❤️</span>
+    </button>
+    <div class="footer">
+      "Every moment with you is a treasure in my heart. I promise to always be there for you, my bestie and forever friend."
+    </div>
+  </div>
+  <audio id="audio" loop>
+    <source src="butkii(3).mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
